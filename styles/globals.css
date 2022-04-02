@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    direction: rtl;
 }
 
 a {
@@ -13,4 +14,29 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'yekan-heavy';
+  src: url(../public/Fa-En/IRANSansWeb_Bold.woff);
+}
+
+@font-face {
+  font-family: 'yekan-regular';
+  src: url(../public/Fa-En/IRANSansWeb_Light.woff);
+}
+
+@font-face {
+  font-family: 'yekan-medium';
+  src: url(../public/Fa-En/IRANSansWeb_Light.woff);
+}
+
+@font-face {
+  font-family: 'yekan-num';
+  src: url(../public/Fa-En/IRANSansWebFaNum.woff);
+}
+
+@font-face {
+  font-family: 'yekan-num-bold';
+  src: url(../public/Fa-En/IRANSansWebFaNumBold.woff);
 }
